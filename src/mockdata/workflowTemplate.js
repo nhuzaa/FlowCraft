@@ -41,7 +41,7 @@ const workflowTemplateData = {
         },
         {
             "parameters": {
-                "toRecipients": "rmartinez@patientnow.com",
+                "toRecipients": "abac@gmail.com",
                 "subject": "Test",
                 "bodyContent": "Hello there",
                 "additionalFields": {}
