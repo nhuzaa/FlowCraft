@@ -1,0 +1,51 @@
+{
+  "name": "FlowCraft",
+  "version": "0.0.1",
+  "description": "FlowCraft is a powerful tool for managing workflows.",
+  "author": {
+    "name": "Rohit Sthapti",
+    "email": "nhuzaa@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["workflow", "management", "react", "vite"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhuzaa/FlowCraft.git"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "dotenv": "^16.3.1",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "reactflow": "^11.10.1",
+    "sort-by": "^0.0.2",
+    "sweetalert2": "^11.6.13",
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.5",
+    "vite": "^5.0.0"
+  }
+}

@@ -1,0 +1,28 @@
+:root {
+    --color-canvas-dot: rgb(42, 40, 40);
+}
+
+.dotted-grid-background {
+    background-size: 15.9163px 15.9163px;
+    background-position: left -187.653px top -86.567px;
+    background-image: radial-gradient(circle at 7.9581509454832435px 7.9581509454832435px, var(--color-canvas-dot) 0.7958150945483243px, transparent 0);
+}
+
+
+.react-flow {
+    --bg-color: #384d39;
+    --text-color: rgb(243, 244, 246);
+    --node-border-radius: 10px;
+    --node-box-shadow: 10px 0 15px rgba(42, 138, 246, 0.3), -10px 0 15px rgba(233, 42, 103, 0.3);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.react-flow__panel.react-flow__controls svg{
+    fill:rgb(243, 244, 246)
+
+}
+
+.react-flow__controls button {
+    background-color: #3a6d8a;
+}
